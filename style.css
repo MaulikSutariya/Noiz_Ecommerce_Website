@@ -1,0 +1,588 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#navlinks a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+#navlinks{
+    padding-left: 120px;
+}
+.navbar{
+    background-color: black;
+}
+#logo h1{
+    color: white;
+    padding-left: 170px;
+}
+#social svg{
+    color: white;
+    margin-left: 10px;
+}
+#social{
+    padding-left: 150px;
+}
+#b{
+    display: flex;
+    padding: 70px;
+    align-items: center;
+}
+#b #b-img img{
+    height: 550px;
+}
+#b-wr button{
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    border-radius: 10px;
+}
+#b-wr button:hover{
+    background-color: white;
+    color: black;
+}
+#b-wr p{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#b-wr{
+    padding: 20px;
+}
+#b-wr h1{
+    font-weight: 700;
+}
+#feature{
+    background-color: rgb(242, 240, 243);
+    padding: 10px;
+    padding-top: 50px;
+}
+#f-1{
+    display: flex;
+    padding: 20px;
+}
+#feature H1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+}
+#f-1-1{
+    padding: 15px;
+}
+#f-1-1 h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+#f-1-1 p{
+    font-size: 14px;
+}
+#f-1-2 img{
+    padding: 10px;
+    padding-top: 10px;
+}
+#head{
+    display: flex;
+    padding: 10px;
+    padding-top: 70px;
+}
+#head #h-img img{
+    height: 700px;
+}
+#h-work{
+    padding-top: 120px;
+}
+#h-work h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#h-work h1 span{
+    color: blue;
+    padding-left: 10px;
+    font-weight: 500;
+}
+#h-work svg{
+    padding: 4px;
+}
+#h-work h5{
+    font-size: 19px;
+    padding: 5px;
+    font-weight: 700;
+}
+#h-work h5 button{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 90px;
+    height: 36px;
+}
+#h-work button{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    height: 40px;
+    width: 260px;
+    border-radius: 10px;
+}
+#h-work button:hover{
+    background-color: white;
+    color: black;
+}
+#phone{
+    display: flex;
+    background-color: rgb(242, 240, 243);
+    padding: 60px;
+    align-items: center;
+}
+#phone img{
+    height: 550px;
+}
+#p-1{
+    padding: 17px;
+}
+#p-1 h1{
+    font-size: 47px;
+    font-weight: 700;
+}
+#p-1 button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-style: solid;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+}
+#p-1 button:hover{
+    background-color: white;
+    color: black;
+}
+#help{
+    display: flex;
+    align-items: center;
+    background-color: rgba(28, 28, 28, 0.347);
+}
+#help #help-2{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 60px;
+    justify-content: space-evenly;
+}
+#help #help-1{
+    background-color:rgba(28, 28, 28, 0.347) ;
+    width: 500px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    border-radius: 0px 60px 60px 0px;
+    padding-top: 20px;
+}
+#help-1 h3{
+    font-size: 31px;
+    color: black;
+    font-weight: 700;
+}
+#help-1 p{
+    font-size: 15px;
+}
+#help-2 p{
+    color: rgb(32, 31, 31);
+}
+#help-2 input#email{
+    color: rgb(32, 31, 31) ;
+    width: 230px;
+    text-align: center;
+    height: 35px;
+}
+#help-2 svg{
+    background-color: blue;
+    height: 33px;
+    width: 35px;
+    padding: 5px;
+}
+#h-2{
+    align-items: center;
+}
+#ftr{
+    display: flex;
+    padding: 15px;
+    background-color: black;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ftr-1{
+    color: white;
+    padding: 10px;
+}
+#ftr-1 h1{
+    font-size: 45px;
+}
+#ftr h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#ftr-1 p{
+    font-size: 15px;
+}
+
+#ftr-2{
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+}
+#ftr-2 li{
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+#ftr-3{
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+}
+#ftr-3-1 h5{
+    font-size: 18px;
+}
+/* #extra{
+    background-color: black;
+    height: 80px;
+} */
+#extra p{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+#about-us #ab-1{
+    display: flex;
+}
+#about-us h1{
+    text-align: center;
+    font-size: 55px;
+}
+#about-us{
+    padding-top: 30px;
+}
+#about-us #ab-1 img{
+    height: 550px;
+    padding: 20px;
+}
+#ab-1{
+    padding: 25px;
+    margin-right: 70px;
+    margin-left: 50px;
+}
+#ab-1 h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+}
+#ab-1 button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-style: solid;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+}
+#ab-1 button:hover{
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-style: solid;
+}
+#shp h1{
+    text-align: center;
+}
+#shp{
+    margin-top:20px ;
+}
+#shp-1{
+    display: flex;
+    margin:80px
+}
+#shp-1 #shp-1-1 p{
+    font-size: 10px;
+}
+#shp-1-1 img{
+    height: 170px;
+}
+#shp-1-1{
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-style: solid;
+    border-color: darkgray;
+    margin: 10px;
+}
+#shp-1-1 h2{
+    font-size: 18px;
+    
+}
+#shp-1-1 button{
+    height: 30px;
+    font-size: 13px;
+    width: 120px;
+    border-style: solid;
+    border-style: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+#shp-1-1 button:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+}
+#conus{
+    margin-top: 50px;
+}
+#conus h1{
+    text-align: center;
+    font-size: 40px;
+}
+form{
+    border-style: solid;
+    border-color: darkgray;
+    width: 40%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    margin-left:365px ;
+}
+form input{
+    margin: 8px;
+    width: 350px;
+    text-align: center;
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 10px;
+}
+form textarea{
+    margin: 8px;
+    width: 350px;
+    text-align: center;
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 10px;
+}
+#con{
+    margin: 50px;
+}
+form button{
+    height: 30px;
+    font-size: 14px;
+    width: 120px;
+    border-style: solid;
+    border-style: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+form button:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:667px){
+    .navbar #logo{
+        display: none;
+    }
+    #navlinks{
+        padding-left: 0;
+    }
+    #social{
+        padding-left: 0;
+    }
+    #navlinks a{
+        display: flex;
+    }
+    .navbar button{
+        margin-left: 100px;
+    
+    }
+
+    #ln2{
+        color: white;
+        font-size: 45px;
+    }
+    #b{
+        flex-direction: column;
+        padding-top: 0;
+        text-align: center;
+        padding-right: 0;
+    }
+    #b #b-wr{
+        padding-left: 20px;
+    }
+    #f-1{
+        flex-direction: column;
+    }
+    #head{
+        flex-direction: column;
+    }
+    #phone{
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+        padding-right: 0;
+    }
+    #ftr{
+        flex-direction: column;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #b  #b-img img{
+        height: 310px;
+    }
+    #backgr{
+        padding-left: 0;
+    }
+    #b{
+        padding-left: 0;
+    }
+    #f-1 #f-1-2 img{
+        height: 450px;
+        padding-left: 0;
+    }
+    #head #h-img img{
+        height: 350px;
+        padding-left: 0;
+    }
+    #phone img{
+        height: 300px;
+    }
+    #f-1 #f-1-1{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #head{
+        text-align: center;
+    }
+    #head #h-work button{
+        width: 150px;
+    }
+    #head #h-work h5 button{
+        width: 80px;
+        font-size: 15px;
+    }
+    #ftr-1{
+        text-align: center;
+    }
+    #ftr-2{
+        padding-top: 50px;
+        padding-right: 5px;
+        padding-left: 0;
+    }
+    
+    #ftr-2 li{
+        padding: 5px;
+        text-align: center;
+    }
+    #ftr h2{
+        text-align: center;
+        font-size: 22px;
+    }
+    #ftr-1 h1{
+        font-size: 45px;
+    }
+    #ftr-3 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #ftr-3{
+        padding-left: 0;
+        padding-right: 0;
+        padding: 10px;
+        padding-top: 40px;
+    }
+    #ftr-3-1 h5{
+        font-size: 14px;
+        padding-right: 0;
+        padding-left: 35px;
+        padding-top: 10px;
+    }
+    #ab-1{
+        flex-direction: column;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #about-us #ab-1 img{
+        height: 360px;
+    }
+    #about-us h1{
+        font-size: 26px;
+    }
+    #about-us #ab-1 #m{
+        text-align: center;
+        margin: 10px;
+    }
+    #about-us{
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #shp-1{
+        flex-direction: column;
+        /* margin-left: 0;
+        padding-left: 0; */
+        margin: 0;
+    }
+    #shp-1-1{
+        width: 328px;
+    }
+    #con form{
+        margin: 0;
+        padding: 0;
+        width: 320px;
+        margin: 15px;
+    }
+    #con form input{
+        width: 250px;
+        margin: 10px;
+    }
+    #con form textarea{
+        width: 250px;
+    }
+    #con{
+        margin: 0;
+        padding: 0;
+    }
+    #con form button{
+        margin: 15px;
+    }
+    #service{
+        text-align: center;
+    }
+    
+        
+    
+}
